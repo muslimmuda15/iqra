@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eka.iqra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.eka.iqra.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul" />
+
+                <category android:name="android.intent.category.Asmaul" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Menu" />
+
+                <category android:name="android.intent.category.Menu" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul1" />
+
+                <category android:name="android.intent.category.Asmaul1" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul10"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul10" />
+
+                <category android:name="android.intent.category.Asmaul10" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul11"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul11" />
+
+                <category android:name="android.intent.category.Asmaul11" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul12"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul12" />
+
+                <category android:name="android.intent.category.Asmaul12" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul13"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul13" />
+
+                <category android:name="android.intent.category.Asmaul13" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul14"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul14" />
+
+                <category android:name="android.intent.category.Asmaul14" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul15"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul15" />
+
+                <category android:name="android.intent.category.Asmaul15" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul16"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul16" />
+
+                <category android:name="android.intent.category.Asmaul16" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul17"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul17" />
+
+                <category android:name="android.intent.category.Asmaul17" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul18"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul18" />
+
+                <category android:name="android.intent.category.Asmaul18" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul19"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul19" />
+
+                <category android:name="android.intent.category.Asmaul19" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul20"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul20" />
+
+                <category android:name="android.intent.category.Asmaul20" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul2" />
+
+                <category android:name="android.intent.category.Asmaul2" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul3" />
+
+                <category android:name="android.intent.category.Asmaul3" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul4" />
+
+                <category android:name="android.intent.category.Asmaul4" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul5" />
+
+                <category android:name="android.intent.category.Asmaul5" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul6" />
+
+                <category android:name="android.intent.category.Asmaul6" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul7" />
+
+                <category android:name="android.intent.category.Asmaul7" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul8"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul8" />
+
+                <category android:name="android.intent.category.Asmaul9" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Asmaul9"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Asmaul9" />
+
+                <category android:name="android.intent.category.Asmaul9" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.BelHijaiyah"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BelHijaiyah" />
+
+                <category android:name="android.intent.category.BelHijaiyah" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.BelHijaiyah2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BelHijaiyah2" />
+
+                <category android:name="android.intent.category.BelHijaiyah2" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.Hijaiyah"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Hijaiyah" />
+
+                <category android:name="android.intent.category.Hijaiyah" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra1" />
+
+                <category android:name="android.intent.category.Iqra1" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra2" />
+
+                <category android:name="android.intent.category.Iqra2" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra3" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra4" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra5" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Iqra6" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.LatHijaiyah"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LatHijaiyah" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.LatihanIqra"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LatihanIqra" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.PilIqra"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PilIqra" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.eka.iqra.PilAsmahul"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PilAsmahul" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
