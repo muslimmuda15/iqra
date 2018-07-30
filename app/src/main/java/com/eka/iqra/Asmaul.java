@@ -75,11 +75,11 @@ public class Asmaul extends Activity implements OnClickListener{
 		//Memanggil file my_sound pada folder raw
 //audioBackground = MediaPlayer.create(this, R.raw.a);
 //Set looping ke true untukmengulang audio jikatelahselesai
-audioBackground.setLooping(false);
+//audioBackground.setLooping(false);
 //Set volume audio agar berbunyi
-audioBackground.setVolume(1,1);
+//audioBackground.setVolume(1,1);
 //Memulai audio
-audioBackground.start();
+//audioBackground.start();
 		
 		back=(Button)findViewById(R.id.button8);
 			back.setOnClickListener(this);
