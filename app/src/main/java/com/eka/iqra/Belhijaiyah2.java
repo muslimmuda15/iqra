@@ -173,17 +173,6 @@ public class Belhijaiyah2 extends Activity implements OnClickListener{
                 playSound(21);
             }
         });
-        
-        
-		
-//Memanggil file my_sound pada folder raw
-//audioBackground = MediaPlayer.create(this, R.raw.a);
-//Set looping ke true untukmengulang audio jikatelahselesai
-audioBackground.setLooping(false);
-//Set volume audio agar berbunyi
-audioBackground.setVolume(1,1);
-//Memulai audio
-audioBackground.start();
 		
 		back=(Button)findViewById(R.id.button3);
 			back.setOnClickListener(this);
@@ -195,30 +184,65 @@ audioBackground.start();
 			
 	}
 		protected void playSound(int i) {
+            int raw = 0;
+
+            switch(i) {
+                case 1: raw = R.raw.b8b;break;
+                case 2: raw = R.raw.c1c;break;
+                case 3: raw = R.raw.c2c;break;
+                case 4: raw = R.raw.c3c;break;
+                case 5: raw = R.raw.c4c;break;
+                case 6: raw = R.raw.c5c;break;
+                case 7: raw = R.raw.c6c;break;
+                case 8: raw = R.raw.c7c;break;
+                case 9: raw = R.raw.c8c;break;
+//                case 10: raw = R.raw.d1d;break;
+//                case 11: raw = R.raw.d2d;break;
+//                case 12: raw = R.raw.d3d;break;
+//                case 13: raw = R.raw.d4d;break;
+//                case 14: raw = R.raw.d5d;break;
+//                case 15: raw = R.raw.d6d;break;
+                case 16: raw = R.raw.d1d;break;
+                case 17: raw = R.raw.d2d;break;
+                case 18: raw = R.raw.d3d;break;
+                case 19: raw = R.raw.d4d;break;
+                case 20: raw = R.raw.d5d;break;
+                case 21: raw = R.raw.d6d;break;
+            }
+
 		// TODO Auto-generated method stub
-		
+            //Memanggil file my_sound pada folder raw
+            audioBackground = MediaPlayer.create(this, raw);
+//Set looping ke true untukmengulang audio jikatelahselesai
+            audioBackground.setLooping(false);
+//Set volume audio agar berbunyi
+            audioBackground.setVolume(1,1);
+//Memulai audio
+            audioBackground.start();
 	}
-		@Override
-		public void onClick(View arg0) {
-			// TODO Auto-generated method stub
-			if (arg0==close){
-				Intent myIntent = new Intent(arg0.getContext(),MainActivity.class);
-		startActivityForResult(myIntent, 0);	
-			}
-			else
-				if(arg0==next){
-				Intent myIntent = new Intent(arg0.getContext(), Asmaul1.class);
-				startActivityForResult(myIntent, 0);
-				}
-			else
-				if(arg0==back){
-					Intent myIntent = new Intent(arg0.getContext(), Menu.class);
-					startActivityForResult(myIntent, 0);
-					}
-			else
-	if(arg0==exit){
-			moveTaskToBack(true);
-			System.exit(0);
-		}
-			}
+
+    @Override
+    public void onClick(View arg0)
+    {
+        // TODO Auto-generated method stub
+        if (arg0==close){
+            Intent myIntent = new Intent(arg0.getContext(),MainActivity.class);
+    startActivityForResult(myIntent, 0);
+        }
+        else
+            if(arg0==next){
+            Intent myIntent = new Intent(arg0.getContext(), Asmaul1.class);
+            startActivityForResult(myIntent, 0);
+            }
+        else
+            if(arg0==back){
+                Intent myIntent = new Intent(arg0.getContext(), Menu.class);
+                startActivityForResult(myIntent, 0);
+                }
+        else
+            if(arg0==exit){
+                moveTaskToBack(true);
+                System.exit(0);
+            }
 	}
+}

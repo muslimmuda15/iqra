@@ -179,10 +179,29 @@ public class BelHijaiyah extends Activity implements OnClickListener{
 			
 			
 	}
-		protected void playSound(int i) {
+	protected void playSound(int i) {
+	    int raw = 0;
+
+        switch(i) {
+            case 1: raw = R.raw.a1a;break;
+            case 2: raw = R.raw.a2a;break;
+            case 3: raw = R.raw.a3a;break;
+            case 4: raw = R.raw.a4a;break;
+            case 5: raw = R.raw.a5a;break;
+            case 6: raw = R.raw.a6a;break;
+            case 7: raw = R.raw.a7a;break;
+            case 8: raw = R.raw.a8a;break;
+            case 9: raw = R.raw.b1b;break;
+            case 10: raw = R.raw.b2b;break;
+            case 11: raw = R.raw.b3b;break;
+            case 12: raw = R.raw.b4b;break;
+            case 13: raw = R.raw.b5b;break;
+            case 14: raw = R.raw.b6b;break;
+            case 15: raw = R.raw.b7b;break;
+        }
 		// TODO Auto-generated method stub
             //Memanggil file my_sound pada folder raw
-            audioBackground = MediaPlayer.create(this, R.raw.a1a);
+            audioBackground = MediaPlayer.create(this, raw);
 //Set looping ke true untukmengulang audio jikatelahselesai
             audioBackground.setLooping(false);
 //Set volume audio agar berbunyi
@@ -190,27 +209,26 @@ public class BelHijaiyah extends Activity implements OnClickListener{
 //Memulai audio
             audioBackground.start();
 	}
-		@Override
-		public void onClick(View arg0) {
-			// TODO Auto-generated method stub
-			if (arg0==close){
-				Intent myIntent = new Intent(arg0.getContext(),MainActivity.class);
-		startActivityForResult(myIntent, 0);	
-			}
-			else
-				if(arg0==next){
-				Intent myIntent = new Intent(arg0.getContext(), Asmaul1.class);
-				startActivityForResult(myIntent, 0);
-				}
-			else
-				if(arg0==back){
-					Intent myIntent = new Intent(arg0.getContext(), Menu.class);
-					startActivityForResult(myIntent, 0);
-					}
-			else
-	if(arg0==exit){
-			moveTaskToBack(true);
-			System.exit(0);
-		}
-			}
-	}
+    @Override
+    public void onClick(View arg0) {
+        // TODO Auto-generated method stub
+        if (arg0==close){
+            Intent myIntent = new Intent(arg0.getContext(),MainActivity.class);
+            startActivityForResult(myIntent, 0);
+        }
+        else
+            if(arg0==next){
+            Intent myIntent = new Intent(arg0.getContext(), Asmaul1.class);
+            startActivityForResult(myIntent, 0);
+            }
+        else
+            if(arg0==back){
+                Intent myIntent = new Intent(arg0.getContext(), Menu.class);
+                startActivityForResult(myIntent, 0);
+                }
+        else if(arg0==exit){
+            moveTaskToBack(true);
+            System.exit(0);
+        }
+    }
+}
